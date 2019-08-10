@@ -64,16 +64,15 @@ public class ItemAdapter extends PagedListAdapter<Items, ItemAdapter.ItemViewHol
     /**
      *  Our ViewHolder Class.
      */
-    public class ItemViewHolder extends RecyclerView.ViewHolder {
+    class ItemViewHolder extends RecyclerView.ViewHolder {
 
         ImageView imageView;
         TextView textView;
 
-        public ItemViewHolder(@NonNull View itemView) {
+        ItemViewHolder(@NonNull View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.imageID);
             textView = itemView.findViewById(R.id.textID);
         }
-
     }
 }

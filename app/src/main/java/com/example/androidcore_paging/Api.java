@@ -10,8 +10,8 @@ public interface Api {
     Call<StackApiResponse> getAnswers(
             @Query("page") int page,
             @Query("pagesize") int size,
-            @Query("order") String order,
-            @Query("sort") String sort,
+//            @Query("order") String order,
+//            @Query("sort") String sort,
             @Query("site") String site
     );
 
